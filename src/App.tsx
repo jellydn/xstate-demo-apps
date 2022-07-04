@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useMachine } from "@xstate/react";
 
 import "./App.css";
 import logo from "./logo.svg";
+import { counterMachine, counterService } from "./machines/counterMachine";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [state, send] = useMachine(counterMachine);
 
   return (
     <div className="App">
@@ -12,8 +13,14 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
-          <button onClick={() => setCount((counter) => counter + 1)}>
-            count is: {count}
+          <button type="button" onClick={() => send("INC")}>
+            {state.context.count}
+          </button>
+          <button type="button" onClick={() => counterService.send("INC")}>
+            Increase
+          </button>
+          <button type="button" onClick={() => counterService.send("DEC")}>
+            Increase
           </button>
         </p>
         <p>
