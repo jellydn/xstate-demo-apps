@@ -1,28 +1,14 @@
-import { useMachine } from "@xstate/react";
-
 import "./App.css";
+import { Counter } from "./components/Counter";
 import logo from "./logo.svg";
-import { counterMachine, counterService } from "./machines/counterMachine";
 
 function App() {
-  const [state, send] = useMachine(counterMachine);
-
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => send("INC")}>
-            {state.context.count}
-          </button>
-          <button type="button" onClick={() => counterService.send("INC")}>
-            Increase
-          </button>
-          <button type="button" onClick={() => counterService.send("DEC")}>
-            Increase
-          </button>
-        </p>
+        <p>Hello XState + React!</p>
+        <Counter />
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
@@ -34,6 +20,15 @@ function App() {
             rel="noopener noreferrer"
           >
             Learn React
+          </a>
+          {" | "}
+          <a
+            className="App-link"
+            href="https://xstate.js.org/docs/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn XState
           </a>
           {" | "}
           <a

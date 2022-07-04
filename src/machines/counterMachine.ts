@@ -1,9 +1,11 @@
 import { inspect } from "@xstate/inspect";
 import { assign, createMachine, interpret } from "xstate";
 
-inspect({
-  iframe: false,
-});
+if (typeof window !== "undefined") {
+  inspect({
+    iframe: false,
+  });
+}
 
 type Ctx = {
   count: number;
