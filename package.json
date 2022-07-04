@@ -8,6 +8,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@xstate/inspect": "^0.7.0",
     "@xstate/react": "3.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",

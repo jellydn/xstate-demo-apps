@@ -1,4 +1,9 @@
+import { inspect } from "@xstate/inspect";
 import { assign, createMachine, interpret } from "xstate";
+
+inspect({
+  iframe: false,
+});
 
 type Ctx = {
   count: number;
@@ -44,6 +49,6 @@ export const counterMachine =
     }
   );
 
-export const counterService = interpret(counterMachine)
+export const counterService = interpret(counterMachine, { devTools: true })
   .onTransition((state) => console.log(state.context.count))
   .start();
