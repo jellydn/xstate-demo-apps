@@ -37,7 +37,7 @@
     "c8": "7.11.3",
     "cypress": "10.3.0",
     "eslint": "8.19.0",
-    "eslint-config-productsway": "0.1.14",
+    "eslint-config-productsway": "0.1.16",
     "husky": "8.0.1",
     "jsdom": "20.0.0",
     "lint-staged": "13.0.3",
