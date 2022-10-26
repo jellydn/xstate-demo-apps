@@ -16,6 +16,6 @@
     "platformatic": "^0.4.0"
   },
   "devDependencies": {
-    "@types/node": "18.11.3"
+    "@types/node": "18.11.6"
   }
 }
