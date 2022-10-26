@@ -5,7 +5,7 @@
     },
     "dev": {
       "cache": false,
-      "dependsOn": ["tailwind:generate"],
+      "dependsOn": ["tailwind:generate", "db:migrate"],
       "outputs": []
     },
     "lint": {
@@ -13,6 +13,9 @@
     },
     "test": {
       "outputs": []
+    },
+    "db:migrate": {
+      "cache": false
     },
     "tailwind:generate": {
       "cache": false

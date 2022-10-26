@@ -1,0 +1,21 @@
+{
+  "name": "platformatic-demo",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn db:start",
+    "typecheck": "tsc --noEmit",
+    "db:start": "npx platformatic db start",
+    "db:migrate": "npx platformatic db migrate"
+  },
+  "dependencies": {
+    "@platformatic/sql-graphql": "0.4.0",
+    "@platformatic/sql-mapper": "0.4.0",
+    "fastify": "4.9.2",
+    "platformatic": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.3"
+  }
+}
