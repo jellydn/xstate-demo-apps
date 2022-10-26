@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "build": "turbo run build",
+    "vercel-build":"cd apps/vite-counter && yarn build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "test": "turbo run test"
