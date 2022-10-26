@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
-    "dev:turbo": "next dev --turbo",
+    "dev": "next dev --turbo",
     "format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
     "lint": "next lint",
     "start": "next start",
