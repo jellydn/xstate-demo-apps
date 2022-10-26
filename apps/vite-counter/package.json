@@ -1,0 +1,25 @@
+{
+  "name": "x-state-demo",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc && vite build",
+    "coverage": "vitest run --coverage",
+    "dev": "vite",
+    "prepare": "husky install",
+    "serve": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+ "dependencies": {
+    "@xstate/inspect": "0.7.0",
+    "@xstate/react": "3.0.1",
+    "@xstate/test": "0.5.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "xstate": "4.33.6"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.23",
+    "@types/react-dom": "18.0.7"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pipeline": {
+    "build": {
+      "outputs": [".next/**","dist/**"]
+    },
+    "dev": {
+      "cache": false,
+      "dependsOn": ["tailwind:generate"],
+      "outputs": []
+    },
+    "lint": {
+      "outputs": []
+    },
+    "test": {
+      "outputs": []
+    },
+    "tailwind:generate": {
+      "cache": false
+    }
+  }
+}
