@@ -10,7 +10,7 @@
     "test": "vitest",
     "test:ui": "vitest --ui"
   },
- "dependencies": {
+  "dependencies": {
     "@xstate/inspect": "0.7.0",
     "@xstate/react": "3.0.1",
     "@xstate/test": "0.5.1",

@@ -4,18 +4,22 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "dev": "yarn db:start",
-    "typecheck": "tsc --noEmit",
+    "db:migrate": "npx platformatic db migrate",
     "db:start": "npx platformatic db start",
-    "db:migrate": "npx platformatic db migrate"
+    "dev": "yarn db:start",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@platformatic/sql-graphql": "0.4.0",
     "@platformatic/sql-mapper": "0.4.0",
+    "@xstate/fsm": "^2.0.0",
     "fastify": "4.9.2",
     "platformatic": "^0.4.0"
   },
   "devDependencies": {
-    "@types/node": "18.11.7"
+    "@types/node": "18.11.3",
+    "@xstate/test": "^0.5.1"
   }
 }

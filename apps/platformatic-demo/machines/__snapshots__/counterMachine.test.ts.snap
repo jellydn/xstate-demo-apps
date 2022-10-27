@@ -1,0 +1,49 @@
+// Vitest Snapshot v1
+
+exports[`counterMachine > should decrease counter 1`] = `
+{
+  "actions": [],
+  "changed": true,
+  "context": {
+    "count": -1,
+  },
+  "matches": [Function],
+  "value": "active",
+}
+`;
+
+exports[`counterMachine > should increment counter 1`] = `
+{
+  "actions": [],
+  "changed": true,
+  "context": {
+    "count": 1,
+  },
+  "matches": [Function],
+  "value": "active",
+}
+`;
+
+exports[`counterService > should decrease counter 1`] = `
+{
+  "actions": [],
+  "changed": true,
+  "context": {
+    "count": 1,
+  },
+  "matches": [Function],
+  "value": "active",
+}
+`;
+
+exports[`counterService > should increment counter 1`] = `
+{
+  "actions": [],
+  "changed": true,
+  "context": {
+    "count": 2,
+  },
+  "matches": [Function],
+  "value": "active",
+}
+`;
