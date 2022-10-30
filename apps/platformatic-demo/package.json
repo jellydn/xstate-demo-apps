@@ -7,7 +7,7 @@
     "db:migrate": "npx platformatic db migrate",
     "db:start": "npx platformatic db start",
     "dev": "yarn db:start",
-    "test": "vitest",
+    "test": "vitest --run",
     "test:ui": "vitest --ui",
     "typecheck": "tsc --noEmit"
   },

@@ -7,7 +7,7 @@
     "dev": "vite",
     "prepare": "husky install",
     "serve": "vite preview",
-    "test": "vitest",
+    "test": "vitest --run",
     "test:ui": "vitest --ui"
   },
   "dependencies": {
