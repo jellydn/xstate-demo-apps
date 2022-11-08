@@ -12,7 +12,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@platformatic/sql-graphql": "0.5.0",
+    "@platformatic/sql-graphql": "0.5.1",
     "@platformatic/sql-mapper": "0.5.0",
     "@xstate/fsm": "^2.0.0",
     "ajv": "^8.11.0",
