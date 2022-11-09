@@ -14,14 +14,14 @@
   "dependencies": {
     "@platformatic/sql-graphql": "0.5.1",
     "@platformatic/sql-mapper": "0.5.1",
-    "@xstate/fsm": "^2.0.0",
-    "ajv": "^8.11.0",
+    "@xstate/fsm": "2.0.0",
+    "ajv": "8.11.0",
     "fastify": "4.9.2",
-    "fluent-json-schema": "^4.0.0",
+    "fluent-json-schema": "4.0.0",
     "platformatic": "0.5.1"
   },
   "devDependencies": {
     "@types/node": "18.11.9",
-    "@xstate/test": "^0.5.1"
+    "@xstate/test": "0.5.1"
   }
 }
