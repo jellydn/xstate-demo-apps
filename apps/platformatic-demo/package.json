@@ -16,7 +16,7 @@
     "@platformatic/sql-mapper": "0.7.0",
     "@xstate/fsm": "2.0.0",
     "ajv": "8.11.2",
-    "fastify": "4.9.2",
+    "fastify": "4.10.0",
     "fluent-json-schema": "4.0.0",
     "platformatic": "0.7.0"
   },
