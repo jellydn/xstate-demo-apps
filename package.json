@@ -27,10 +27,10 @@
     "@testing-library/react-hooks": "8.0.1",
     "@testing-library/user-event": "14.4.3",
     "@trivago/prettier-plugin-sort-imports": "4.0.0",
-    "@typescript-eslint/eslint-plugin": "5.45.1",
-    "@typescript-eslint/parser": "5.45.1",
+    "@typescript-eslint/eslint-plugin": "5.46.0",
+    "@typescript-eslint/parser": "5.46.0",
     "@vitejs/plugin-react": "2.2.0",
-    "@vitest/ui": "0.25.5",
+    "@vitest/ui": "0.25.6",
     "c8": "7.12.0",
     "cypress": "11.2.0",
     "eslint": "8.29.0",
@@ -45,7 +45,7 @@
     "turbo": "1.6.3",
     "typescript": "4.9.4",
     "vite": "3.2.5",
-    "vitest": "0.25.5"
+    "vitest": "0.25.6"
   },
   "packageManager": "yarn@1.22.19"
 }
