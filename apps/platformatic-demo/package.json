@@ -21,7 +21,7 @@
     "platformatic": "0.10.0"
   },
   "devDependencies": {
-    "@types/node": "18.11.11",
+    "@types/node": "18.11.12",
     "@xstate/test": "0.5.1"
   }
 }
