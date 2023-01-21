@@ -1829,12 +1829,12 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@platformatic/authenticate@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@platformatic/authenticate/-/authenticate-0.13.0.tgz#ec57e3854adf2d66f77c8b7f2a2ae22960ea0402"
-  integrity sha512-/n5lV5xV4z/YZMEVRNJdymnbI5dtMmoftWi6sbLdbzm8ZZSqxjHtZoseqEkntTuX51pm1w0mtzXOcRomR5D9GQ==
+"@platformatic/authenticate@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@platformatic/authenticate/-/authenticate-0.13.1.tgz#7b9012daee6ddc48d6fe03732b9dd8bbcdd63f46"
+  integrity sha512-+jNXp7bJYsK3H6fkPD4F+f15BaCrgMeqHt/Azkg4tRytDR2blO/QTGYiKLVhFB0VVovJnm1Liog35TkdVZnv1Q==
   dependencies:
-    "@platformatic/config" "0.13.0"
+    "@platformatic/config" "0.13.1"
     colorette "^2.0.19"
     commist "^3.2.0"
     es-main "^1.2.0"
@@ -1842,23 +1842,23 @@
     open "^8.4.0"
     undici "^5.14.0"
 
-"@platformatic/config@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@platformatic/config/-/config-0.13.0.tgz#d1673baef199fc3a2d9834ddc6365fc19d09df02"
-  integrity sha512-OvZUkGTypw6oQJIjbp72YbZq+oC6ozd4GbTbF9a/pVwREBav1zquZ3z7Sd7+tqFpMg1fQMuE/ye33nNEnViPvA==
+"@platformatic/config@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@platformatic/config/-/config-0.13.1.tgz#21c1fd3fa54b8f65d57227a9ded7ea9519adeb7c"
+  integrity sha512-AsJA8uQfB45huq6ZNV53+GpeYLufZcjL3LJNLHSDVS7f6lo9Jhqz6kkWQzNLqPukdISabbyvqJaDMiqNuC8ZVA==
   dependencies:
     "@iarna/toml" "^2.2.5"
-    "@platformatic/utils" "0.13.0"
+    "@platformatic/utils" "0.13.1"
     ajv "^8.11.2"
     dotenv "^16.0.3"
     json5 "^2.2.2"
     pupa "^3.1.0"
     yaml "^2.1.3"
 
-"@platformatic/db-authorization@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@platformatic/db-authorization/-/db-authorization-0.13.0.tgz#c32515b40fe1d4cb505716f8a8452723eab24fa1"
-  integrity sha512-lBgmO+loKHHsp3FfA/oCAmGB/0vFEEiRJ30C3UxPfAD3fWkQrKCISNDTyGtSt65e62h2siYB2oslVrW5d6JIJw==
+"@platformatic/db-authorization@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@platformatic/db-authorization/-/db-authorization-0.13.1.tgz#abb26373f393c110623fe2b70fbdb3fe729228ec"
+  integrity sha512-HIIZL596LhRny+Zy77C81zXDfiY1CX3H6p8t6HRHnFI5YivB8X6NjWUyjBX5asX1lYnRTZ+jtneib2ZnXOod3g==
   dependencies:
     "@fastify/error" "^3.2.0"
     "@fastify/jwt" "^6.5.0"
@@ -1867,28 +1867,28 @@
     leven "~3.1.0"
     undici "^5.14.0"
 
-"@platformatic/db-core@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@platformatic/db-core/-/db-core-0.13.0.tgz#5f40289ef41e75427bfbb38c6b79e6f481e7443a"
-  integrity sha512-IltFyjhT8nVh72MBTkk9oovRSjW7SLuqLKg13SdX/Rvsce93ycB1fZ8LLYYKNZZthcxmcdTneI60MUwqS4iuRQ==
+"@platformatic/db-core@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@platformatic/db-core/-/db-core-0.13.1.tgz#06683d8a9ea253b7ee827db904877c7986d07d1e"
+  integrity sha512-VAJglJFqacJmm92Ro/fERZ2D2L5kZyaEi8skuW49qOTyDU/KIAm8o/qIZyGQ0GhlnqeerVl3Ms7UmSpWb1GgmA==
   dependencies:
-    "@platformatic/sql-events" "0.13.0"
-    "@platformatic/sql-graphql" "0.13.0"
-    "@platformatic/sql-mapper" "0.13.0"
-    "@platformatic/sql-openapi" "0.13.0"
+    "@platformatic/sql-events" "0.13.1"
+    "@platformatic/sql-graphql" "0.13.1"
+    "@platformatic/sql-mapper" "0.13.1"
+    "@platformatic/sql-openapi" "0.13.1"
     fastify-plugin "^4.4.0"
 
-"@platformatic/db-dashboard@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@platformatic/db-dashboard/-/db-dashboard-0.13.0.tgz#7166c768779c43dedb2b80ec39ad9994323dfd2a"
-  integrity sha512-qCzn9PIZLrRJpq4vyiMYr8ayZKW9TznB82EB4n69XIk3FGNRyxVPVJuak4xSpIYjR0RpJgbMBwXG+flO7ydLUg==
+"@platformatic/db-dashboard@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@platformatic/db-dashboard/-/db-dashboard-0.13.1.tgz#5a9098f7b0793696c256b37a10cfe4c808db51cd"
+  integrity sha512-Wuj1wK4rLNZqAjtnVS5YbfRrPpxPjIhUrs89rj1jdK5y9iwHf90z3hjw1ncSec+9QlOgoD8GaYCzg5gaIgv1OA==
   dependencies:
     "@fastify/static" "^6.6.0"
 
-"@platformatic/db@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@platformatic/db/-/db-0.13.0.tgz#725d5aae8dacad7a89cd00eb37513c72c8dd1f60"
-  integrity sha512-SFQaMPHy16tX42/aF5o+01Etykr+I3FQ2HHBMskT8nhK4Z4hZhTSILTMCD52DqV/i3LhQlPlGjCO+5DWrXwiDQ==
+"@platformatic/db@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@platformatic/db/-/db-0.13.1.tgz#c396da6903cd4c4f539dce380d204c9e75562f2a"
+  integrity sha512-G6huxUdBj4psTagUI7WbPtAowZEjMzNb9/SsR3WbBikTX0NkTC1nNP7blO4hnptnNbenBYlgs851w9Ay45w2qQ==
   dependencies:
     "@fastify/accepts" "^4.1.0"
     "@fastify/basic-auth" "^5.0.0"
@@ -1896,16 +1896,17 @@
     "@fastify/deepmerge" "^1.3.0"
     "@fastify/static" "^6.6.0"
     "@fastify/swagger" "^8.2.1"
-    "@platformatic/config" "0.13.0"
-    "@platformatic/db-authorization" "0.13.0"
-    "@platformatic/db-core" "0.13.0"
-    "@platformatic/db-dashboard" "0.13.0"
-    "@platformatic/service" "0.13.0"
-    "@platformatic/sql-json-schema-mapper" "0.13.0"
-    "@platformatic/utils" "0.13.0"
+    "@platformatic/config" "0.13.1"
+    "@platformatic/db-authorization" "0.13.1"
+    "@platformatic/db-core" "0.13.1"
+    "@platformatic/db-dashboard" "0.13.1"
+    "@platformatic/service" "0.13.1"
+    "@platformatic/sql-json-schema-mapper" "0.13.1"
+    "@platformatic/sql-mapper" "0.13.1"
+    "@platformatic/utils" "0.13.1"
     close-with-grace "^1.1.0"
     commist "^3.2.0"
-    create-platformatic "0.13.0"
+    create-platformatic "0.13.1"
     desm "^1.3.0"
     dtsgenerator "^3.16.2"
     env-schema "^5.2.0"
@@ -1917,7 +1918,6 @@
     fastify-print-routes "^2.0.7"
     graphql "^16.6.0"
     help-me "^4.2.0"
-    minimatch "^5.1.1"
     minimist "^1.2.7"
     pino "^8.8.0"
     pino-pretty "^9.1.1"
@@ -1925,10 +1925,10 @@
     rfdc "^1.3.0"
     ua-parser-js "^1.0.32"
 
-"@platformatic/service@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@platformatic/service/-/service-0.13.0.tgz#faef930afcc61438ae8cfa8a725c8f067b0fa2f0"
-  integrity sha512-TdPDmynxtl73AYo+jQIX+cepgv0zRxy9eYn9fLtvFtApNt9UQPiFknOHd13X6Ppoq/NqFVNEKt7HK4YmhV1U5w==
+"@platformatic/service@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@platformatic/service/-/service-0.13.1.tgz#c94cfcac2cd3bd6f526ada615274593125f7a2b6"
+  integrity sha512-m2KlKI65+gCnpLN4l4KO3vcTIgJ99GRbYvz6Jp7Pi6NPXQTz5RVUo0c/hhAzDm0P7uQa5LOd9rjiX2cZr53YZg==
   dependencies:
     "@fastify/accepts" "^4.1.0"
     "@fastify/autoload" "^5.6.0"
@@ -1939,8 +1939,8 @@
     "@fastify/static" "^6.6.0"
     "@fastify/swagger" "^8.2.1"
     "@fastify/under-pressure" "^8.2.0"
-    "@platformatic/config" "0.13.0"
-    "@platformatic/utils" "0.13.0"
+    "@platformatic/config" "0.13.1"
+    "@platformatic/utils" "0.13.1"
     close-with-grace "^1.1.0"
     commist "^3.2.0"
     desm "^1.3.0"
@@ -1954,25 +1954,24 @@
     graphql "^16.6.0"
     help-me "^4.2.0"
     mercurius "^11.4.0"
-    minimatch "^5.1.1"
     minimist "^1.2.7"
     pino "^8.8.0"
     pino-pretty "^9.1.1"
     rfdc "^1.3.0"
 
-"@platformatic/sql-events@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@platformatic/sql-events/-/sql-events-0.13.0.tgz#d651d498c2239e6fe7cdabb431e4fae5b07a319d"
-  integrity sha512-3zba7lRXUd82loQ4+Qn9q69ek4o0qLk925Wsvxdccaaiu8rCYEwAPgGHC0KtoDrbrXJRWKFR1XgHWInRhPjiyQ==
+"@platformatic/sql-events@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@platformatic/sql-events/-/sql-events-0.13.1.tgz#8aa6ef6699402441d2276601d16ba9f0fa79b4ae"
+  integrity sha512-gx3Wqii7sdpAZUnn/IOMYa0yuxcjnQQFRP7p6P5XVwq4d9P0R0ecCxGDOyjUt5H2jI5rE8MGMCPP/LrZLFMggA==
   dependencies:
     fastify-plugin "^4.4.0"
     mqemitter "^5.0.0"
     mqemitter-redis "^5.0.0"
 
-"@platformatic/sql-graphql@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@platformatic/sql-graphql/-/sql-graphql-0.13.0.tgz#544c201739cee2f59cef260d721fe030fffd2ede"
-  integrity sha512-JIIFg4V/y8g/O97AuyNJUG/ArXo/M38j+nrZy57iPG+LF7D2CFz1ygyVWIIyRlPtA/TzG3ak1vc+MAEwlj96yw==
+"@platformatic/sql-graphql@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@platformatic/sql-graphql/-/sql-graphql-0.13.1.tgz#109889bd595f0eea2039c4ddf7994d01f6810c73"
+  integrity sha512-zkA8Sqc/gTFogGjQhxYr4H5M+A+jSCkQmVH4diX6RuT/vsMABFFLsRkwzimwZaDh0Txj1uQXJiWANiFSm+cwLg==
   dependencies:
     camelcase "^6.3.0"
     fastify-plugin "^4.4.0"
@@ -1982,15 +1981,15 @@
     inflected "^2.1.0"
     mercurius "^11.4.0"
 
-"@platformatic/sql-json-schema-mapper@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@platformatic/sql-json-schema-mapper/-/sql-json-schema-mapper-0.13.0.tgz#eaa2ea6b5f792885be4c0727a267e03315d09ef4"
-  integrity sha512-f1RoXSdsE/Y0/1Govv731SznPS4luzFsRULL++kipTWrWlZz7zuxuui4j7aJIMDMKShKPk/2z2n5JI3exlFdRA==
+"@platformatic/sql-json-schema-mapper@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@platformatic/sql-json-schema-mapper/-/sql-json-schema-mapper-0.13.1.tgz#435430732161401dedb53e43064a9a2500479187"
+  integrity sha512-lgRTT7HKFaiunf/pTu/kqMhUPkwlaxBj7njHYbBwerTr6gqjbOHCVIC/IytoEA5VWAsrtPuOYlajuQJPvz5XxQ==
 
-"@platformatic/sql-mapper@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@platformatic/sql-mapper/-/sql-mapper-0.13.0.tgz#f18eee81ed231c04e9597f18ed4446993f8fa24a"
-  integrity sha512-zAIgMOJkMQBettVpP2FCazpBDbec4wn5CO0oILqjVBxliDOifs2ORpN3dlfSKb3B4h0sX9EhMXZz1pJzopu2UQ==
+"@platformatic/sql-mapper@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@platformatic/sql-mapper/-/sql-mapper-0.13.1.tgz#8b2a91c2b05a78a8eaeaf0b6b15be1b422b4bd9b"
+  integrity sha512-6Q3Sdp4M2eDZuWfxt7pbdB6z8EjWnMn0O17tIX5L6RIYxw/45vp5oK6qWevUyzVMuBkhsMvq8Qj7rQ8d/HXPOg==
   dependencies:
     "@databases/mysql" "^5.2.1"
     "@databases/pg" "^5.4.1"
@@ -2000,26 +1999,26 @@
     fastify-plugin "^4.4.0"
     inflected "^2.1.0"
 
-"@platformatic/sql-openapi@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@platformatic/sql-openapi/-/sql-openapi-0.13.0.tgz#60820942526926363f925e474249794e207f3b38"
-  integrity sha512-sm7T5FxQFokeaveEcU3gcY/3SLQ5+xSi3RGpadezoapTvQqWnhohKVRWAYGfafF11UKzlF5pkyTa/26wluvMZg==
+"@platformatic/sql-openapi@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@platformatic/sql-openapi/-/sql-openapi-0.13.1.tgz#b49743e1b78f5ca489283912bd473f493b329b5e"
+  integrity sha512-JFVOEAEZtLuS00l2lg2UrAX7d5C/HHhGwxB67k93CJDR/Qb//UdGrZAFSkYhByc/NS4gqxbrO54NlVmgbe//Og==
   dependencies:
     "@fastify/deepmerge" "^1.3.0"
     "@fastify/swagger" "^8.2.1"
     "@fastify/swagger-ui" "^1.3.0"
-    "@platformatic/sql-json-schema-mapper" "0.13.0"
+    "@platformatic/sql-json-schema-mapper" "0.13.1"
     camelcase "^6.3.0"
     fastify-plugin "^4.4.0"
     inflected "^2.1.0"
 
-"@platformatic/utils@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@platformatic/utils/-/utils-0.13.0.tgz#b9c05e8585039d3dc121a5fcb77023b9b6ca853a"
-  integrity sha512-ms/RdOxzSP5yg2c+r7A8DMRlCLfxKQJT5o7Fgix7NWjIJC+p+BMP9hBqhXdCSpaf/J3km+KmgFDT/S/l5CBV5w==
+"@platformatic/utils@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@platformatic/utils/-/utils-0.13.1.tgz#fd997314c6b71feb157add98ee4b896932d10df3"
+  integrity sha512-AmegG4zuNQoZGN9KgidtiBqXowSD+5qgtUis55tYZ9vANrPEg9j3Kpn/Q1gj1247LfkbSROLwoEUHQteMAXBnA==
   dependencies:
     "@fastify/deepmerge" "^1.3.0"
-    minimatch "^5.1.1"
+    minimatch "^6.0.0"
 
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.21"
@@ -2419,10 +2418,10 @@
     magic-string "^0.27.0"
     react-refresh "^0.14.0"
 
-"@vitest/ui@0.27.2":
-  version "0.27.2"
-  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-0.27.2.tgz#6034a879085da5835d31611acc11dcc4f0082c31"
-  integrity sha512-IlzkmBQfFCddESiN5TqdZAVdWfbQWARkD8esyfSBu3q8uVelYWKQXo9BBLxUhlhj85wGq1/oxHHCI4aY7R8qzg==
+"@vitest/ui@0.27.3":
+  version "0.27.3"
+  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-0.27.3.tgz#4808997a9f48b599e41da9a1bd65aa15c04fac3d"
+  integrity sha512-paqgFZHZ6zjrH4WUv4cjnscU6AHj9GC/Rj7ZD1mfV2Ihd6S04UZI11TMGYGK4sz1hqxlRgmQiONJfAM7tQiF/w==
   dependencies:
     fast-glob "^3.2.12"
     flatted "^3.2.7"
@@ -3461,10 +3460,10 @@ cosmiconfig@^5.0.7:
     js-yaml "^3.13.1"
     parse-json "^4.0.0"
 
-create-platformatic@0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/create-platformatic/-/create-platformatic-0.13.0.tgz#3fc4865f1d02d9cde6ec590005d4b9692ba997e1"
-  integrity sha512-2+dPxudXCJJv6hqKZdVa5O4eOom9/d6O4mznEtW48h9B5+PJg/NFAQ9DHRW5UkCSpgVEB5swVrjtPjTWmnjFZw==
+create-platformatic@0.13.1:
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/create-platformatic/-/create-platformatic-0.13.1.tgz#fb3f13a1f5e13bedc778f1831d7c64636e76984c"
+  integrity sha512-aW7WSraillAuwO9NtYDgQ/ty4H8v3wnycuGvUJh6ZaIbgOUqCaE1chUtLqVt4ymqAj99wMk1rLzfN93B5w7mXg==
   dependencies:
     chalk "^5.2.0"
     commist "^3.2.0"
@@ -3476,7 +3475,7 @@ create-platformatic@0.13.0:
     inquirer "^9.1.4"
     log-update "^5.0.1"
     minimist "^1.2.7"
-    mkdirp "^1.0.4"
+    mkdirp "^2.0.0"
     ora "^6.1.2"
     pino "^8.8.0"
     pino-pretty "^9.1.1"
@@ -4564,6 +4563,11 @@ extsprintf@^1.2.0:
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.1.tgz#8d172c064867f235c0c84a596806d279bf4bcc07"
   integrity sha512-Wrk35e8ydCKDj/ArClo1VrPVmN8zph5V4AtHwIuHhvMXsKf73UT3BOD+azBIW+3wOJ4FhEH7zyaJCFvChjYvMA==
 
+fast-content-type-parse@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/fast-content-type-parse/-/fast-content-type-parse-1.0.0.tgz#cddce00df7d7efb3727d375a598e4904bfcb751c"
+  integrity sha512-Xbc4XcysUXcsP5aHUU7Nq3OwvHq97C+WnbkeIefpeYLX+ryzFJlU6OStFJhs6Ol0LkUGpcK+wL0JwfM+FCU5IA==
+
 fast-copy@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/fast-copy/-/fast-copy-3.0.0.tgz#875ebf33b13948ae012b6e51d33da5e6e7571ab8"
@@ -4690,7 +4694,28 @@ fastify-sandbox@^0.11.0:
   optionalDependencies:
     "@matteo.collina/worker" "^3.0.0"
 
-fastify@4.11.0, fastify@^4.0.2, fastify@^4.10.2:
+fastify@4.12.0:
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/fastify/-/fastify-4.12.0.tgz#e5330215d95702336693b38b2e66d34ee8300d3e"
+  integrity sha512-Hh2GCsOCqnOuewWSvqXlpq5V/9VA+/JkVoooQWUhrU6gryO9+/UGOoF/dprGcKSDxkM/9TkMXSffYp8eA/YhYQ==
+  dependencies:
+    "@fastify/ajv-compiler" "^3.3.1"
+    "@fastify/error" "^3.0.0"
+    "@fastify/fast-json-stringify-compiler" "^4.1.0"
+    abstract-logging "^2.0.1"
+    avvio "^8.2.0"
+    fast-content-type-parse "^1.0.0"
+    find-my-way "^7.3.0"
+    light-my-request "^5.6.1"
+    pino "^8.5.0"
+    process-warning "^2.0.0"
+    proxy-addr "^2.0.7"
+    rfdc "^1.3.0"
+    secure-json-parse "^2.5.0"
+    semver "^7.3.7"
+    tiny-lru "^10.0.0"
+
+fastify@^4.0.2, fastify@^4.10.2:
   version "4.11.0"
   resolved "https://registry.yarnpkg.com/fastify/-/fastify-4.11.0.tgz#7fa5614c81a618e67a7a467f0f1b33c43f4ff7d2"
   integrity sha512-JteZ8pjEqd+6n+azQnQfSJV8MUMxAmxbvC2Dx/Mybj039Lf/u3kda9Kq84uy/huCpqCzZoyHIZS5JFGF3wLztw==
@@ -6427,10 +6452,17 @@ minimatch@^3.0.4, minimatch@^3.0.5, minimatch@^3.1.1, minimatch@^3.1.2:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimatch@^5.0.1, minimatch@^5.1.1:
+minimatch@^5.0.1:
   version "5.1.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-5.1.4.tgz#4e2d39d872684e97b309a9104251c3f1aa4e9d1c"
   integrity sha512-U0iNYXt9wALljzfnGkhFSy5sAC6/SCR3JrHrlsdJz4kF8MvhTRQNiC59iUi1iqsitV7abrNAJWElVL9pdnoUgw==
+  dependencies:
+    brace-expansion "^2.0.1"
+
+minimatch@^6.0.0:
+  version "6.1.5"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-6.1.5.tgz#61adaa90e59b29022fd8e326364f0336e4f9282d"
+  integrity sha512-2/WxnHMkH7qFS+pG8ibLN5GZdx5Y0aLlgFSghaKRUpkeEmC85wZRb/xDvj9jv601KdNOS2G/nNqj2h6k42yxBQ==
   dependencies:
     brace-expansion "^2.0.1"
 
@@ -6504,6 +6536,11 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
+
+mkdirp@^2.0.0:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-2.1.3.tgz#b083ff37be046fd3d6552468c1f0ff44c1545d1f"
+  integrity sha512-sjAkg21peAG9HS+Dkx7hlG9Ztx7HLeKnvB3NQRcu/mltCVmvkF0pisbiTSfDVYTT86XEfZrTUosLdZLStquZUw==
 
 mlly@^1.0.0, mlly@^1.1.0:
   version "1.1.0"
@@ -7196,14 +7233,14 @@ pkg-up@^3.1.0:
   dependencies:
     find-up "^3.0.0"
 
-platformatic@0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/platformatic/-/platformatic-0.13.0.tgz#2712cb288546677e608b94d9782a1d7156bcca6a"
-  integrity sha512-M3x7MUh8T89jjiN3HolhRVX5cjeFsiIfHJwYSNxPJa3axSxuN1mtMt9QN9hrOjOBW5C9IAJ+u7wap9S+YkFHwg==
+platformatic@0.13.1:
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/platformatic/-/platformatic-0.13.1.tgz#0ee0d64a2b9da95d07eccd4a68216f9e21326013"
+  integrity sha512-wT1E898P5/gYwh+SafAbSQyyiuCNM5GoROpvU71Rrrr3/Pyaht10v0HOYlDC/1gCJEpV3hdIxJihZlEYS1IyrA==
   dependencies:
-    "@platformatic/authenticate" "0.13.0"
-    "@platformatic/db" "0.13.0"
-    "@platformatic/service" "0.13.0"
+    "@platformatic/authenticate" "0.13.1"
+    "@platformatic/db" "0.13.1"
+    "@platformatic/service" "0.13.1"
     colorette "^2.0.19"
     commist "^3.2.0"
     desm "^1.3.0"
@@ -8075,6 +8112,11 @@ statuses@2.0.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-2.0.1.tgz#55cb000ccf1d48728bd23c685a063998cf1a1b63"
   integrity sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==
 
+std-env@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.3.1.tgz#93a81835815e618c8aa75e7c8a4dc04f7c314e29"
+  integrity sha512-3H20QlwQsSm2OvAxWIYhs+j01MzzqwMwGiiO1NQaJYZgJZFPuAbf95/DiKRBSTYIJ2FeGUc+B/6mPGcWP9dO3Q==
+
 steed@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/steed/-/steed-1.1.3.tgz#f1525dd5adb12eb21bf74749537668d625b9abc5"
@@ -8782,10 +8824,10 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-vite-node@0.27.2:
-  version "0.27.2"
-  resolved "https://registry.yarnpkg.com/vite-node/-/vite-node-0.27.2.tgz#c15d1a936f4d5b5639613b0e05665400521c084d"
-  integrity sha512-IDwuVhslF10qCnWOGJui7/2KksAOBHi+UbVo6Pqt4f5lgn+kS2sVvYDsETRG5PSuslisGB5CFGvb9I6FQgymBQ==
+vite-node@0.27.3:
+  version "0.27.3"
+  resolved "https://registry.yarnpkg.com/vite-node/-/vite-node-0.27.3.tgz#56b823b7f45b17f6ee45cd37468e869a7915ff5a"
+  integrity sha512-eyJYOO64o5HIp8poc4bJX+ZNBwMZeI3f6/JdiUmJgW02Mt7LnoCtDMRVmLaY9S05SIsjGe339ZK4uo2wQ+bF9g==
   dependencies:
     cac "^6.7.14"
     debug "^4.3.4"
@@ -8808,10 +8850,10 @@ vite@4.0.4, "vite@^3.0.0 || ^4.0.0":
   optionalDependencies:
     fsevents "~2.3.2"
 
-vitest@0.27.2:
-  version "0.27.2"
-  resolved "https://registry.yarnpkg.com/vitest/-/vitest-0.27.2.tgz#af10dad4d2e94b816b2e7c4d947a0976626b345a"
-  integrity sha512-y7tdsL2uaQy+KF18AlmNHZe29ukyFytlxrpSTwwmgLE2XHR/aPucJP9FLjWoqjgqFlXzRAjHlFJLU+HDyI/OsA==
+vitest@0.27.3:
+  version "0.27.3"
+  resolved "https://registry.yarnpkg.com/vitest/-/vitest-0.27.3.tgz#207529ca35943956e3141b270ac01dcc635a89c3"
+  integrity sha512-Ld3UVgRVhJUtqvQ3dW89GxiApFAgBsWJZBCWzK+gA3w2yG68csXlGZZ4WDJURf+8ecNfgrScga6xY+8YSOpiMg==
   dependencies:
     "@types/chai" "^4.3.4"
     "@types/chai-subset" "^1.3.3"
@@ -8824,12 +8866,13 @@ vitest@0.27.2:
     local-pkg "^0.4.2"
     picocolors "^1.0.0"
     source-map "^0.6.1"
+    std-env "^3.3.1"
     strip-literal "^1.0.0"
     tinybench "^2.3.1"
     tinypool "^0.3.0"
     tinyspy "^1.0.2"
     vite "^3.0.0 || ^4.0.0"
-    vite-node "0.27.2"
+    vite-node "0.27.3"
     why-is-node-running "^2.2.2"
 
 w3c-xmlserializer@^4.0.0:
