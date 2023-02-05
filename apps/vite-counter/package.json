@@ -11,12 +11,12 @@
     "test:ui": "vitest --ui"
   },
   "dependencies": {
-    "@xstate/inspect": "0.7.0",
-    "@xstate/react": "3.0.2",
+    "@xstate/inspect": "0.7.1",
+    "@xstate/react": "3.1.2",
     "@xstate/test": "0.5.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "xstate": "4.35.2"
+    "xstate": "4.35.4"
   },
   "devDependencies": {
     "@types/react": "18.0.27",
