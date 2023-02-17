@@ -12,14 +12,14 @@
   },
   "dependencies": {
     "@xstate/inspect": "0.7.1",
-    "@xstate/react": "3.1.2",
+    "@xstate/react": "3.2.1",
     "@xstate/test": "0.5.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "xstate": "4.35.4"
+    "xstate": "4.36.0"
   },
   "devDependencies": {
-    "@types/react": "18.0.27",
-    "@types/react-dom": "18.0.10"
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11"
   }
 }
