@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "5.16.5",
-    "@testing-library/react": "13.4.0",
+    "@testing-library/react": "14.0.0",
     "@testing-library/react-hooks": "8.0.1",
     "@testing-library/user-event": "14.4.3",
     "@trivago/prettier-plugin-sort-imports": "4.1.1",
@@ -43,7 +43,7 @@
     "sort-package-json": "2.4.1",
     "tailwindcss": "3.2.7",
     "turbo": "1.8.6",
-    "typescript": "4.9.5",
+    "typescript": "5.0.2",
     "vite": "4.2.1",
     "vitest": "0.29.7"
   },
