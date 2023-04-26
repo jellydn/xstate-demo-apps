@@ -16,12 +16,12 @@
     "@platformatic/sql-mapper": "0.21.1",
     "@xstate/fsm": "2.0.0",
     "ajv": "8.12.0",
-    "fastify": "4.15.0",
+    "fastify": "4.16.0",
     "fluent-json-schema": "4.1.0",
     "platformatic": "0.21.1"
   },
   "devDependencies": {
-    "@types/node": "18.16.0",
+    "@types/node": "18.16.1",
     "@xstate/test": "0.5.1"
   }
 }
