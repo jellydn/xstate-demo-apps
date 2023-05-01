@@ -1445,7 +1445,7 @@
     basic-auth "^2.0.1"
     fastify-plugin "^4.0.0"
 
-"@fastify/cors@^8.2.0":
+"@fastify/cors@^8.2.1":
   version "8.2.1"
   resolved "https://registry.yarnpkg.com/@fastify/cors/-/cors-8.2.1.tgz#dd348162bcbfb87dff4b492e2bef32d41244006a"
   integrity sha512-2H2MrDD3ea7g707g1CNNLWb9/tYbmw7HS+MK2SDcgjxwzbOFR93JortelTIO8DBFsZqFtEpKNxiZfSyrGgYcbw==
@@ -1470,7 +1470,7 @@
   dependencies:
     fast-json-stringify "^5.7.0"
 
-"@fastify/jwt@^6.5.0", "@fastify/jwt@^6.6.0":
+"@fastify/jwt@^6.5.0", "@fastify/jwt@^6.7.1":
   version "6.7.1"
   resolved "https://registry.yarnpkg.com/@fastify/jwt/-/jwt-6.7.1.tgz#7ebbb7844eecf5bd4da12a878a8d0b1ccb28413e"
   integrity sha512-pvRcGeyF2H1U+HXaxlRBd6s1y99vbSZjhpxTWECIGIhMXKRxBTBSUPRF7LJGONlW1/pZstQ0/Dp/ZxBFlDuEnw==
@@ -1500,7 +1500,7 @@
     http-errors "2.0.0"
     mime "^3.0.0"
 
-"@fastify/static@^6.0.0", "@fastify/static@^6.9.0":
+"@fastify/static@^6.0.0", "@fastify/static@^6.10.1":
   version "6.10.1"
   resolved "https://registry.yarnpkg.com/@fastify/static/-/static-6.10.1.tgz#605e6758b7536089581bb59dbb096d80997327b6"
   integrity sha512-DNnG+5QenQcTQw37qk0/191STThnN6SbU+2XMpWtpYR3gQUfUvMax14jTT/jqNINNbCkQJaKMnPtpFPKo4/68g==
@@ -1513,7 +1513,7 @@
     p-limit "^3.1.0"
     readable-stream "^4.0.0"
 
-"@fastify/swagger-ui@^1.4.0":
+"@fastify/swagger-ui@^1.8.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@fastify/swagger-ui/-/swagger-ui-1.8.0.tgz#d83e406dc8b79fbc0e5ed6f11348fc11cf73c297"
   integrity sha512-srgVsAOyj+C7uyya5mcxz9Arrt3fzUM0b1wziJ3uCwk5pMuIRBOG8xDx4ZgjtqPzRzHs+NrRjCdNWqX/RL7qNg==
@@ -1543,10 +1543,10 @@
     "@fastify/error" "^3.0.0"
     fastify-plugin "^4.0.0"
 
-"@fastify/websocket@^7.0.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@fastify/websocket/-/websocket-7.2.0.tgz#3b39cc0c821c1334cb8ddac93d9673ce52084742"
-  integrity sha512-vhWQCT0I5a1JIKc34LXHQ2earW7kViYvhGn5x+lZr8TIOJKmx6NJk0Bw9zGWakulXhMsu/0y89QnsUnHiII9ag==
+"@fastify/websocket@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@fastify/websocket/-/websocket-8.0.0.tgz#1295acdaf4ee3869a6089d4e4409a33364924ffd"
+  integrity sha512-7NnTJVbpWkAHwuAw9tGKJP5RBOUqLhU50xP5FMlfShWvWPZeCGioy22v8noqw1KFi+Mdo5guCMmfQRGrFfIR1w==
   dependencies:
     fastify-plugin "^4.0.0"
     ws "^8.0.0"
@@ -1685,14 +1685,14 @@
   dependencies:
     bindings "^1.5.0"
 
-"@mercuriusjs/federation@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@mercuriusjs/federation/-/federation-1.0.1.tgz#e362396b82f3a81a16d78938984df6d53ba30f88"
-  integrity sha512-aski6H8SRfjK73Bruzh5kQ20OS0s0pkbFvcOex46Qm17bYWoJ3daMrbTw4caOSkru7R8pIA/bvAjSq97xkDJkQ==
+"@mercuriusjs/federation@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@mercuriusjs/federation/-/federation-2.0.0.tgz#b729a8863729b8192349e8be364391dd1fd676f5"
+  integrity sha512-hBL2Zhdf0p2Ab2SDPXcVnNsYTf5x50xPAyHm2HpmXreHS7aGt4obX8g8JrqRhIfOApcRg5l9RQ2OZqaUYeR8sQ==
   dependencies:
     "@fastify/error" "^3.0.0"
     graphql "^16.6.0"
-    mercurius "^12.0.0"
+    mercurius "^13.0.0"
 
 "@next/env@13.3.2":
   version "13.3.2"
@@ -1805,26 +1805,27 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@platformatic/authenticate@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/authenticate/-/authenticate-0.21.1.tgz#3c2536d43aadffead37b59256873b6c1eeb90138"
-  integrity sha512-jx9Lc4qDpkjVl+vt/Rb7XGagHYChei6/0Whotpo32NzSDzuUopSpayZr1hEnLR8CnW7PyzVQUeqRf/KR0aZ0pQ==
+"@platformatic/authenticate@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/authenticate/-/authenticate-0.22.0.tgz#74ae0f6115ea4bfa605920002dd3a56f0d7dabe2"
+  integrity sha512-bwGmFX9ZJrcu4E6qxpP4Tmev8CZvJgZ1fY7UnR+E2noExf2eQ2CF0GjTKTLAvlYnqwqshigA8s2daICqg7Zh/Q==
   dependencies:
-    "@platformatic/config" "0.21.1"
-    colorette "^2.0.19"
+    "@platformatic/config" "0.22.0"
+    colorette "^2.0.20"
     commist "^3.2.0"
     es-main "^1.2.0"
     minimist "^1.2.8"
     open "^8.4.2"
-    undici "^5.20.0"
+    undici "^5.22.0"
 
-"@platformatic/client-cli@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/client-cli/-/client-cli-0.21.1.tgz#6d6008538ec1231be0056ccf1931e11d9d70cc85"
-  integrity sha512-Sfo/ejhg8BluxNZSYOnKGMpbELwolvTqr/my0Z7CdzqQwet+eJW8pRjoGoXBNdQE/0KKz/SrZhKXDK+lvvmnQw==
+"@platformatic/client-cli@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/client-cli/-/client-cli-0.22.0.tgz#4b53af89be691d04dbafdf46ec27d2396c9e444e"
+  integrity sha512-6qld3nM7Coq1hY+owQ3A3Lo0DSJKxxshGzyVbSlhLExpq4/Kc02FdmtBCFOhpY+OiZAHHQUhyolTIbPMMZru4g==
   dependencies:
-    "@platformatic/client" "0.21.1"
-    "@platformatic/metaconfig" "0.21.1"
+    "@platformatic/client" "0.22.0"
+    "@platformatic/config" "0.22.0"
+    "@platformatic/metaconfig" "0.22.0"
     abstract-logging "^2.0.1"
     code-block-writer "^12.0.0"
     desm "^1.3.0"
@@ -1832,89 +1833,92 @@
     graphql "^16.6.0"
     help-me "^4.2.0"
     jsonpointer "^5.0.1"
-    minimist "^1.2.7"
-    undici "^5.14.0"
+    minimist "^1.2.8"
+    undici "^5.22.0"
 
-"@platformatic/client@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/client/-/client-0.21.1.tgz#1db3b67d5f488bb15a501aea0a107d11a2589942"
-  integrity sha512-mCPDFI+LAgn27+ie7u9Uz6jn9x39GQO1BrDVTuM/vxgCUjpVEUHD9GWRWpPXxBrBgULuz7f8Hcqq075KwO7AQA==
+"@platformatic/client@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/client/-/client-0.22.0.tgz#9543a69e1e93f8e47193ead524142007abd0db77"
+  integrity sha512-ktSrrFU+apfM3qu9xCn52EmVklxONSWrng/+zbXreHA1vY5LlLNxRGOiEACx/vVnLtJWKAHe3cxmQI9GrzDvTw==
   dependencies:
     abstract-logging "^2.0.1"
-    undici "^5.14.0"
+    undici "^5.22.0"
 
-"@platformatic/config@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/config/-/config-0.21.1.tgz#7831300225543e711d230deb9bd4875d4cf09426"
-  integrity sha512-rIbEEACkICfKhvsah3Is8Fp1bTjiXhKaevGP6iSASc/OgSK9WGNpsae+GAssOv/Mh19bb9YlmzNoEFXPhBPvXQ==
+"@platformatic/config@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/config/-/config-0.22.0.tgz#069ca1081a5f01d0cfa018eca37b6375f39c2674"
+  integrity sha512-AyB00RrhQWa3Gzt5C6AagkuC9rubOLfp65L5YIuFPmpTT/0/RvftVAnrCDN3JeiUhNuZ62SdeLYDncCp4BkQAw==
   dependencies:
-    "@platformatic/metaconfig" "0.21.1"
-    "@platformatic/utils" "0.21.1"
+    "@platformatic/metaconfig" "0.22.0"
+    "@platformatic/utils" "0.22.0"
     ajv "^8.12.0"
     dotenv "^16.0.3"
     pupa "^3.1.0"
+    semver "^7.5.0"
+    undici "^5.22.0"
 
-"@platformatic/db-authorization@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/db-authorization/-/db-authorization-0.21.1.tgz#f62993a08737d235f06fbf4a73750412d147550a"
-  integrity sha512-YxdMSoF7sQH7fyPK9B5H5Kw7OqqfEntqwFjLSKQ5TFCduO6cFhYs2BKxJ75QLN8FF3sWI2gsxxgjN+GnaVmSow==
+"@platformatic/db-authorization@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/db-authorization/-/db-authorization-0.22.0.tgz#9d068b87a5530bff3ddb7f45c830185f1dd22821"
+  integrity sha512-imZnwkPevZ8/doot6Ar7/4+o8Ph5pYj6RkZVE/Hfe3juLY9U1ZQT+AGK/Xp0w3038yp8KNCBWfK0iQdVSJJRkw==
   dependencies:
     "@fastify/error" "^3.2.0"
-    "@fastify/jwt" "^6.6.0"
+    "@fastify/jwt" "^6.7.1"
     fastify-plugin "^4.5.0"
     fastify-user "^0.1.1"
-    get-jwks "^8.0.3"
+    get-jwks "^8.0.5"
     leven "~3.1.0"
-    undici "^5.20.0"
+    undici "^5.22.0"
 
-"@platformatic/db-core@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/db-core/-/db-core-0.21.1.tgz#971d92319a52bf6316344c2bfe2deeea5ad0852f"
-  integrity sha512-zKm1sFQ8Xalx7Tno0Y4mOj5zD0tIoLxsJJ5zWqPUCDdRyqYKS+t/swfv1tUnbfZkaYfVZw3Nl+49cflBPVqO0Q==
+"@platformatic/db-core@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/db-core/-/db-core-0.22.0.tgz#03c895862e98e98700ad760df42292e353845615"
+  integrity sha512-UBmnzQfkLO7H7J2Hs13G79JKnaeFwvrj727jTVz7A4uvmyAvuSRc9K2V/CraUPzZsHsRWRGnmduFJp3q3x4tXA==
   dependencies:
-    "@platformatic/sql-events" "0.21.1"
-    "@platformatic/sql-graphql" "0.21.1"
-    "@platformatic/sql-mapper" "0.21.1"
-    "@platformatic/sql-openapi" "0.21.1"
+    "@platformatic/sql-events" "0.22.0"
+    "@platformatic/sql-graphql" "0.22.0"
+    "@platformatic/sql-mapper" "0.22.0"
+    "@platformatic/sql-openapi" "0.22.0"
     fastify-plugin "^4.5.0"
 
-"@platformatic/db-dashboard@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/db-dashboard/-/db-dashboard-0.21.1.tgz#6554cd2f9f324d1c8c3db290c5437464a795b023"
-  integrity sha512-Wzd+zvH0aYAdAbXDubeCJiBR8Sv6NP43E1AhCO0dUFVGsTzu9S67TIZI+0d8a0Nhm2MjDxFN3YkUDUHeQeQusg==
+"@platformatic/db-dashboard@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/db-dashboard/-/db-dashboard-0.22.0.tgz#4473886a20bf401bbb67cb1e40447328fd502e41"
+  integrity sha512-FoxIGCAlt4HMNPU4SQPsrn9TZSQP1yi8lhJp6AHThyeVKfBnvgsJXPiZifB9mpqbTeluWR8qOHkynXPPyqPmLA==
   dependencies:
-    "@fastify/static" "^6.9.0"
+    "@fastify/static" "^6.10.1"
+    "@platformatic/config" "0.22.0"
 
-"@platformatic/db@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/db/-/db-0.21.1.tgz#dcf39106b423fbc47cb8ee8547c9c74af31a642b"
-  integrity sha512-lmkhdmRRwH4F2iqI9bzEiycfGMjNVapvHyBgpDvT61pQxM7Si0kR41qGTf639vKfBka8viJ2zU6pTqtATZo7qw==
+"@platformatic/db@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/db/-/db-0.22.0.tgz#1415fab63fcc7487fe2774a50298677b69689df8"
+  integrity sha512-HzISQQ4IrMQAn978kAHBIrKH3BeWPEOZf/OcY5MRynUZBXZ1j4CgPIazYuOnsw5n9CydSLHhPCgAWoZ7bkTj8w==
   dependencies:
     "@fastify/accepts" "^4.1.0"
     "@fastify/basic-auth" "^5.0.0"
-    "@fastify/cors" "^8.2.0"
+    "@fastify/cors" "^8.2.1"
     "@fastify/deepmerge" "^1.3.0"
-    "@fastify/static" "^6.9.0"
+    "@fastify/static" "^6.10.1"
     "@fastify/swagger" "^8.3.1"
-    "@platformatic/config" "0.21.1"
-    "@platformatic/db-authorization" "0.21.1"
-    "@platformatic/db-core" "0.21.1"
-    "@platformatic/db-dashboard" "0.21.1"
-    "@platformatic/service" "0.21.1"
-    "@platformatic/sql-graphql" "0.21.1"
-    "@platformatic/sql-json-schema-mapper" "0.21.1"
-    "@platformatic/sql-mapper" "0.21.1"
-    "@platformatic/utils" "0.21.1"
+    "@platformatic/config" "0.22.0"
+    "@platformatic/db-authorization" "0.22.0"
+    "@platformatic/db-core" "0.22.0"
+    "@platformatic/db-dashboard" "0.22.0"
+    "@platformatic/service" "0.22.0"
+    "@platformatic/sql-graphql" "0.22.0"
+    "@platformatic/sql-json-schema-mapper" "0.22.0"
+    "@platformatic/sql-mapper" "0.22.0"
+    "@platformatic/utils" "0.22.0"
     camelcase "^6.3.0"
-    close-with-grace "^1.1.0"
+    close-with-grace "^1.2.0"
     code-block-writer "^12.0.0"
     commist "^3.2.0"
     desm "^1.3.0"
     env-schema "^5.2.0"
     es-main "^1.2.0"
-    execa "^7.0.0"
-    fastify "^4.13.0"
-    fastify-metrics "^10.0.3"
+    execa "^7.1.1"
+    fastify "^4.17.0"
+    fastify-metrics "^10.3.0"
     fastify-plugin "^4.5.0"
     fastify-print-routes "^2.1.0"
     graphql "^16.6.0"
@@ -1924,8 +1928,8 @@
     pino-pretty "^10.0.0"
     postgrator "^7.1.1"
     rfdc "^1.3.0"
-    rimraf "^4.1.2"
-    ua-parser-js "^1.0.33"
+    rimraf "^4.4.1"
+    ua-parser-js "^1.0.35"
 
 "@platformatic/deploy-client@^0.1.2":
   version "0.1.2"
@@ -1935,91 +1939,92 @@
     tar "^6.1.11"
     undici "^5.11.0"
 
-"@platformatic/metaconfig@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/metaconfig/-/metaconfig-0.21.1.tgz#640b438276eb10f7447aa78c107e70406cf77b4a"
-  integrity sha512-o5kUoO6+duPmdzcEI6z98zx5wFc0yy0UFpLIMpz4BgVNE+BeiaGrz9w+CXADD+48I/9JgEBZNfz41XD6TpSA2g==
+"@platformatic/metaconfig@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/metaconfig/-/metaconfig-0.22.0.tgz#7b42e2eb89711955b108fe902f527ce5c8866c6a"
+  integrity sha512-TQRaiBC7ERKHdKMjI/JgXZmBpd/AORTTOE4EaDScnv2pHDb49UkVAu/VObI0lLL5xrglNnAb91EWoiljNQ5KkQ==
   dependencies:
     "@iarna/toml" "^2.2.5"
     json5 "^2.2.3"
     rfdc "^1.3.0"
-    yaml "^2.2.1"
+    semver "^7.5.0"
+    yaml "^2.2.2"
 
-"@platformatic/service@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/service/-/service-0.21.1.tgz#bd22800af2b37327eac92869c45b520b151b45db"
-  integrity sha512-2dolpF29O8yz1I9hP1NTnM6nM9fj+To8SO6AUHy/JdUcxpHBsoVYwMr2yvNaPHHR2GhJ/YyOhgv8H7mdhiSWWA==
+"@platformatic/service@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/service/-/service-0.22.0.tgz#75661e64f2da9eb6aaa55c0e99bcd8388fb367e1"
+  integrity sha512-fFTvxv9WvGY50u+coVNg9xwwC5nYjsoQTnc2vrLH7ckNi+IvKAy++xvLnkaoRWvLZ64WJWUhEqe1AA0zc+E4Mw==
   dependencies:
     "@fastify/accepts" "^4.1.0"
     "@fastify/autoload" "^5.7.1"
     "@fastify/basic-auth" "^5.0.0"
-    "@fastify/cors" "^8.2.0"
+    "@fastify/cors" "^8.2.1"
     "@fastify/deepmerge" "^1.3.0"
     "@fastify/restartable" "^1.4.0"
-    "@fastify/static" "^6.9.0"
+    "@fastify/static" "^6.10.1"
     "@fastify/swagger" "^8.3.1"
-    "@fastify/swagger-ui" "^1.4.0"
+    "@fastify/swagger-ui" "^1.8.0"
     "@fastify/under-pressure" "^8.2.0"
-    "@mercuriusjs/federation" "^1.0.1"
-    "@platformatic/client" "0.21.1"
-    "@platformatic/config" "0.21.1"
-    "@platformatic/utils" "0.21.1"
-    close-with-grace "^1.1.0"
+    "@mercuriusjs/federation" "^2.0.0"
+    "@platformatic/client" "0.22.0"
+    "@platformatic/config" "0.22.0"
+    "@platformatic/utils" "0.22.0"
+    close-with-grace "^1.2.0"
     commist "^3.2.0"
     desm "^1.3.0"
     env-schema "^5.2.0"
     es-main "^1.2.0"
-    execa "^7.0.0"
-    fastify "^4.13.0"
-    fastify-metrics "^10.0.3"
+    execa "^7.1.1"
+    fastify "^4.17.0"
+    fastify-metrics "^10.3.0"
     fastify-plugin "^4.5.0"
     fastify-sandbox "^0.11.0"
     graphql "^16.6.0"
     help-me "^4.2.0"
-    mercurius "^12.2.0"
+    mercurius "^13.0.0"
     minimist "^1.2.8"
     pino "^8.11.0"
     pino-pretty "^10.0.0"
     rfdc "^1.3.0"
-    ua-parser-js "^1.0.33"
+    ua-parser-js "^1.0.35"
 
-"@platformatic/sql-events@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/sql-events/-/sql-events-0.21.1.tgz#cd7f30ecf917520efc3adbefff223e149e759095"
-  integrity sha512-VbjBG2CC1Ys1Tm4SY3Jbq0qo5Ov2Z76E8rIK3O1OoidTv7G9nRlwGiYezaBUu/Bj1l9ZRjIGsM1yFqpPFYaPvQ==
+"@platformatic/sql-events@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/sql-events/-/sql-events-0.22.0.tgz#db74feaa7ebc92a30adb89c2553354ef5d1e2c1c"
+  integrity sha512-s7PAuAQjeS37be5NToTpO0gOOv+IRYrrCqcsNrKhWrpTKkT+fzdCLORBnhwBL2YyHIMe9OgLIx+Ooavfpw0MtA==
   dependencies:
     camelcase "^6.3.0"
     fastify-plugin "^4.5.0"
     mqemitter "^5.0.0"
     mqemitter-redis "^5.0.0"
 
-"@platformatic/sql-graphql@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/sql-graphql/-/sql-graphql-0.21.1.tgz#42f7f7f7a6b6047f6b29a06a665581dcc4e38aef"
-  integrity sha512-3V3sJkp2RTy4A751VRdFzQVo+WPRjivhG4hlsDwwhGkPtS555Tlb/9i/i76vsL53EvuIzmrrmDH/kLVJqFoeyQ==
+"@platformatic/sql-graphql@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/sql-graphql/-/sql-graphql-0.22.0.tgz#0197a06fd36f0a7ae4f1bf1a8303388fb9320cf5"
+  integrity sha512-NHt5ZFOKvLA3wHud38kMPL4aghKyILuNtZnZN3xCrwzLnOoazUN+oKkGXoVVtnfiAhFpIH0tDS+tkGEZeDaNqg==
   dependencies:
-    "@mercuriusjs/federation" "^1.0.1"
+    "@mercuriusjs/federation" "^2.0.0"
     camelcase "^6.3.0"
     fastify-plugin "^4.5.0"
     graphql "^16.6.0"
-    graphql-scalars "^1.20.1"
+    graphql-scalars "^1.21.3"
     graphql-type-json "^0.3.2"
     inflected "^2.1.0"
-    mercurius "^12.2.0"
+    mercurius "^13.0.0"
 
-"@platformatic/sql-json-schema-mapper@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/sql-json-schema-mapper/-/sql-json-schema-mapper-0.21.1.tgz#c3c8819f5f7aadb0024e497391eb7271be7e045a"
-  integrity sha512-S1v3OtCURgW4fAPEKDKTkWyb/P3v+FLbFfVSTgWLFsZBJU52Ygb38MGcPxDyWB2pkUzVvlyeTnJt2yyzXdqZ2A==
+"@platformatic/sql-json-schema-mapper@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/sql-json-schema-mapper/-/sql-json-schema-mapper-0.22.0.tgz#f24c0b50483d5a7f003ea6757d39014f47194b18"
+  integrity sha512-db0oLaZS4W1XoMKg2eA3GvG9d7z4ervb7n0ygWbF87ESMrehRi8oe42dJqWhuap4tlkA7xEMV0l/kOX2fEbFDg==
   dependencies:
     code-block-writer "^12.0.0"
     dtsgenerator "^3.18.0"
     safe-identifier "^0.4.2"
 
-"@platformatic/sql-mapper@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/sql-mapper/-/sql-mapper-0.21.1.tgz#7c8ae942f8ff6db4a1b125117646650d4d5d5694"
-  integrity sha512-OMCHMj1oDKipO2PlpnAD0HGHhzTOAUmyUxt1R0n83alM+xoc5SMn8xg4dIPWhkkX2apEdz7geLbfamqLaeQa/Q==
+"@platformatic/sql-mapper@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/sql-mapper/-/sql-mapper-0.22.0.tgz#c6a8120deaef7be374089412c8feb42d36be3df7"
+  integrity sha512-RguEHL/xQ/MjhvL4s3v2pNLkM5lZ85zcL9EByG2NGdkrDi7CaoTYT9/1NFK0ZpganN/ws26sYmr51lc28/d3vQ==
   dependencies:
     "@databases/mysql" "^5.2.1"
     "@databases/pg" "^5.4.1"
@@ -2029,26 +2034,26 @@
     fastify-plugin "^4.5.0"
     inflected "^2.1.0"
 
-"@platformatic/sql-openapi@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/sql-openapi/-/sql-openapi-0.21.1.tgz#8e64f56643d9e0b061f007f81a4ced393b84a216"
-  integrity sha512-cXhUJE8G6NEQCj5Hh9mN+i+qndGfBlg1llnSJjTnjZbpE9uncKr/AUvFRVmnqtlUReMnDQIcFeXL1agvDHMijQ==
+"@platformatic/sql-openapi@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/sql-openapi/-/sql-openapi-0.22.0.tgz#5b447ecd2eeb260cc9ad909e5b5da382dcbb290d"
+  integrity sha512-NMXp3jvz4X6cFjmeXuWyxfUkodf0xmhNYHVjLtNjPNqIWe2cDTzGU8uQXRVqv5evlPg/Ebw5/RiRQKZFmUrasw==
   dependencies:
     "@fastify/deepmerge" "^1.3.0"
     "@fastify/swagger" "^8.3.1"
-    "@fastify/swagger-ui" "^1.4.0"
-    "@platformatic/sql-json-schema-mapper" "0.21.1"
+    "@fastify/swagger-ui" "^1.8.0"
+    "@platformatic/sql-json-schema-mapper" "0.22.0"
     camelcase "^6.3.0"
     fastify-plugin "^4.5.0"
     inflected "^2.1.0"
 
-"@platformatic/utils@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@platformatic/utils/-/utils-0.21.1.tgz#0d1e0762e8367e6614db4795e9eea0ec8bfa2f15"
-  integrity sha512-bLidgXkmMTybgQe6EO7wSpunqJA0E8Ws4TRVUGu0Fbl4hlpgGPUqb1n5RKQG2aDAKfnxswM6ZJpbHSWXwxpOzA==
+"@platformatic/utils@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@platformatic/utils/-/utils-0.22.0.tgz#4cc1db0e6f45278753e4e3c7fe881a8182164451"
+  integrity sha512-BdHXHpzl0ZRtfH+A+/V4PSHC0quKtmCYIBPr2xdNyjqawP+REkjUpunrti0d5LMKmwNkcI/aNxjKeAWAOANPpg==
   dependencies:
     "@fastify/deepmerge" "^1.3.0"
-    minimatch "^8.0.0"
+    minimatch "^8.0.4"
 
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.21"
@@ -2300,15 +2305,15 @@
   dependencies:
     "@types/node" "*"
 
-"@typescript-eslint/eslint-plugin@5.59.1":
-  version "5.59.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.59.1.tgz#9b09ee1541bff1d2cebdcb87e7ce4a4003acde08"
-  integrity sha512-AVi0uazY5quFB9hlp2Xv+ogpfpk77xzsgsIEWyVS7uK/c7MZ5tw7ZPbapa0SbfkqE0fsAMkz5UwtgMLVk2BQAg==
+"@typescript-eslint/eslint-plugin@5.59.2":
+  version "5.59.2"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.59.2.tgz#684a2ce7182f3b4dac342eef7caa1c2bae476abd"
+  integrity sha512-yVrXupeHjRxLDcPKL10sGQ/QlVrA8J5IYOEWVqk0lJaSZP7X5DfnP7Ns3cc74/blmbipQ1htFNVGsHX6wsYm0A==
   dependencies:
     "@eslint-community/regexpp" "^4.4.0"
-    "@typescript-eslint/scope-manager" "5.59.1"
-    "@typescript-eslint/type-utils" "5.59.1"
-    "@typescript-eslint/utils" "5.59.1"
+    "@typescript-eslint/scope-manager" "5.59.2"
+    "@typescript-eslint/type-utils" "5.59.2"
+    "@typescript-eslint/utils" "5.59.2"
     debug "^4.3.4"
     grapheme-splitter "^1.0.4"
     ignore "^5.2.0"
@@ -2316,7 +2321,17 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@5.59.1", "@typescript-eslint/parser@^5.42.0":
+"@typescript-eslint/parser@5.59.2":
+  version "5.59.2"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.59.2.tgz#c2c443247901d95865b9f77332d9eee7c55655e8"
+  integrity sha512-uq0sKyw6ao1iFOZZGk9F8Nro/8+gfB5ezl1cA06SrqbgJAt0SRoFhb9pXaHvkrxUpZaoLxt8KlovHNk8Gp6/HQ==
+  dependencies:
+    "@typescript-eslint/scope-manager" "5.59.2"
+    "@typescript-eslint/types" "5.59.2"
+    "@typescript-eslint/typescript-estree" "5.59.2"
+    debug "^4.3.4"
+
+"@typescript-eslint/parser@^5.42.0":
   version "5.59.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.59.1.tgz#73c2c12127c5c1182d2e5b71a8fa2a85d215cbb4"
   integrity sha512-nzjFAN8WEu6yPRDizIFyzAfgK7nybPodMNFGNH0M9tei2gYnYszRDqVA0xlnRjkl7Hkx2vYrEdb6fP2a21cG1g==
@@ -2334,13 +2349,21 @@
     "@typescript-eslint/types" "5.59.1"
     "@typescript-eslint/visitor-keys" "5.59.1"
 
-"@typescript-eslint/type-utils@5.59.1":
-  version "5.59.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/type-utils/-/type-utils-5.59.1.tgz#63981d61684fd24eda2f9f08c0a47ecb000a2111"
-  integrity sha512-ZMWQ+Oh82jWqWzvM3xU+9y5U7MEMVv6GLioM3R5NJk6uvP47kZ7YvlgSHJ7ERD6bOY7Q4uxWm25c76HKEwIjZw==
+"@typescript-eslint/scope-manager@5.59.2":
+  version "5.59.2"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-5.59.2.tgz#f699fe936ee4e2c996d14f0fdd3a7da5ba7b9a4c"
+  integrity sha512-dB1v7ROySwQWKqQ8rEWcdbTsFjh2G0vn8KUyvTXdPoyzSL6lLGkiXEV5CvpJsEe9xIdKV+8Zqb7wif2issoOFA==
   dependencies:
-    "@typescript-eslint/typescript-estree" "5.59.1"
-    "@typescript-eslint/utils" "5.59.1"
+    "@typescript-eslint/types" "5.59.2"
+    "@typescript-eslint/visitor-keys" "5.59.2"
+
+"@typescript-eslint/type-utils@5.59.2":
+  version "5.59.2"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/type-utils/-/type-utils-5.59.2.tgz#0729c237503604cd9a7084b5af04c496c9a4cdcf"
+  integrity sha512-b1LS2phBOsEy/T381bxkkywfQXkV1dWda/z0PhnIy3bC5+rQWQDS7fk9CSpcXBccPY27Z6vBEuaPBCKCgYezyQ==
+  dependencies:
+    "@typescript-eslint/typescript-estree" "5.59.2"
+    "@typescript-eslint/utils" "5.59.2"
     debug "^4.3.4"
     tsutils "^3.21.0"
 
@@ -2348,6 +2371,11 @@
   version "5.59.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.59.1.tgz#03f3fedd1c044cb336ebc34cc7855f121991f41d"
   integrity sha512-dg0ICB+RZwHlysIy/Dh1SP+gnXNzwd/KS0JprD3Lmgmdq+dJAJnUPe1gNG34p0U19HvRlGX733d/KqscrGC1Pg==
+
+"@typescript-eslint/types@5.59.2":
+  version "5.59.2"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.59.2.tgz#b511d2b9847fe277c5cb002a2318bd329ef4f655"
+  integrity sha512-LbJ/HqoVs2XTGq5shkiKaNTuVv5tTejdHgfdjqRUGdYhjW1crm/M7og2jhVskMt8/4wS3T1+PfFvL1K3wqYj4w==
 
 "@typescript-eslint/typescript-estree@5.59.1":
   version "5.59.1"
@@ -2362,17 +2390,30 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/utils@5.59.1":
-  version "5.59.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.59.1.tgz#d89fc758ad23d2157cfae53f0b429bdf15db9473"
-  integrity sha512-MkTe7FE+K1/GxZkP5gRj3rCztg45bEhsd8HYjczBuYm+qFHP5vtZmjx3B0yUCDotceQ4sHgTyz60Ycl225njmA==
+"@typescript-eslint/typescript-estree@5.59.2":
+  version "5.59.2"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.59.2.tgz#6e2fabd3ba01db5d69df44e0b654c0b051fe9936"
+  integrity sha512-+j4SmbwVmZsQ9jEyBMgpuBD0rKwi9RxRpjX71Brr73RsYnEr3Lt5QZ624Bxphp8HUkSKfqGnPJp1kA5nl0Sh7Q==
+  dependencies:
+    "@typescript-eslint/types" "5.59.2"
+    "@typescript-eslint/visitor-keys" "5.59.2"
+    debug "^4.3.4"
+    globby "^11.1.0"
+    is-glob "^4.0.3"
+    semver "^7.3.7"
+    tsutils "^3.21.0"
+
+"@typescript-eslint/utils@5.59.2":
+  version "5.59.2"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.59.2.tgz#0c45178124d10cc986115885688db6abc37939f4"
+  integrity sha512-kSuF6/77TZzyGPhGO4uVp+f0SBoYxCDf+lW3GKhtKru/L8k/Hd7NFQxyWUeY7Z/KGB2C6Fe3yf2vVi4V9TsCSQ==
   dependencies:
     "@eslint-community/eslint-utils" "^4.2.0"
     "@types/json-schema" "^7.0.9"
     "@types/semver" "^7.3.12"
-    "@typescript-eslint/scope-manager" "5.59.1"
-    "@typescript-eslint/types" "5.59.1"
-    "@typescript-eslint/typescript-estree" "5.59.1"
+    "@typescript-eslint/scope-manager" "5.59.2"
+    "@typescript-eslint/types" "5.59.2"
+    "@typescript-eslint/typescript-estree" "5.59.2"
     eslint-scope "^5.1.1"
     semver "^7.3.7"
 
@@ -2382,6 +2423,14 @@
   integrity sha512-6waEYwBTCWryx0VJmP7JaM4FpipLsFl9CvYf2foAE8Qh/Y0s+bxWysciwOs0LTBED4JCaNxTZ5rGadB14M6dwA==
   dependencies:
     "@typescript-eslint/types" "5.59.1"
+    eslint-visitor-keys "^3.3.0"
+
+"@typescript-eslint/visitor-keys@5.59.2":
+  version "5.59.2"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-5.59.2.tgz#37a419dc2723a3eacbf722512b86d6caf7d3b750"
+  integrity sha512-EEpsO8m3RASrKAHI9jpavNv9NlEUebV4qmF1OWxSTtKSFBpC1NCmWazDQHFivRf0O1DV11BA645yrLEVQ0/Lig==
+  dependencies:
+    "@typescript-eslint/types" "5.59.2"
     eslint-visitor-keys "^3.3.0"
 
 "@vitejs/plugin-react@3.1.0":
@@ -3308,7 +3357,7 @@ clone@^1.0.2:
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==
 
-close-with-grace@^1.1.0:
+close-with-grace@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/close-with-grace/-/close-with-grace-1.2.0.tgz#9af82cc62b40125125e4c772e4dbe3cd8c3ff494"
   integrity sha512-Xga0jyAb4fX98u5pZAgqlbqHP8cHuy5M3Wto0k0L/36aP2C25Cjp51XfPw3Hz7dNC2L2/hF/PK/KJhO275L+VA==
@@ -3357,7 +3406,7 @@ color-support@^1.1.2, color-support@^1.1.3:
   resolved "https://registry.yarnpkg.com/color-support/-/color-support-1.1.3.tgz#93834379a1cc9a0c61f82f52f0d04322251bd5a2"
   integrity sha512-qiBjkpbMLO/HL68y+lh4q0/O1MZFj2RX6X/KmMa3+gJD3z+WwI1ZzDHysvqHGS3mP6mznPckpXmw1nI9cJjyRg==
 
-colorette@^2.0.16, colorette@^2.0.19, colorette@^2.0.7:
+colorette@^2.0.16, colorette@^2.0.19, colorette@^2.0.20, colorette@^2.0.7:
   version "2.0.20"
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.20.tgz#9eb793e6833067f7235902fcd3b09917a000a95a"
   integrity sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==
@@ -3467,28 +3516,29 @@ cosmiconfig@^8.1.0:
     parse-json "^5.0.0"
     path-type "^4.0.0"
 
-create-platformatic@0.21.1:
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/create-platformatic/-/create-platformatic-0.21.1.tgz#c1c46347efc7d6f7a9735743b0a3da2674ad4203"
-  integrity sha512-tpDIxCm85yQT1kjkHVXOz6sot5Mru6xs4F30XR40TY6MHYqPREsqsFsg4edWjpRceiA876vuNZ4tf46IE0tGAA==
+create-platformatic@0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/create-platformatic/-/create-platformatic-0.22.0.tgz#a831a672fab0fdb02f506b1deb9f6e1a6428854b"
+  integrity sha512-S42bbv6mZLw71sAKUtalFVsvE3HCkQGhYxgaEy4+/bI4f4+Y5c+0Id5vKaMT4kJWjF6I2YobLKrm+rIBvcAlqw==
   dependencies:
+    "@platformatic/config" "0.22.0"
     chalk "^5.2.0"
     commist "^3.2.0"
     desm "^1.3.0"
     es-main "^1.2.0"
-    execa "^7.0.0"
-    fastify "^4.13.0"
+    execa "^7.1.1"
+    fastify "^4.17.0"
     help-me "^4.2.0"
-    inquirer "^9.1.4"
+    inquirer "^9.2.0"
     log-update "^5.0.1"
     minimist "^1.2.8"
-    mkdirp "^2.1.3"
-    ora "^6.1.2"
+    mkdirp "^2.1.6"
+    ora "^6.3.0"
     pino "^8.11.0"
     pino-pretty "^10.0.0"
     pupa "^3.1.0"
-    semver "^7.3.8"
-    undici "^5.20.0"
+    semver "^7.5.0"
+    undici "^5.22.0"
 
 cross-fetch@^3.1.5:
   version "3.1.5"
@@ -4452,7 +4502,7 @@ execa@4.1.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-execa@^7.0.0:
+execa@^7.0.0, execa@^7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/execa/-/execa-7.1.1.tgz#3eb3c83d239488e7b409d48e8813b76bb55c9c43"
   integrity sha512-wH0eMf/UXckdUYnO21+HDztteVv05rq2GXksxT4fCGeHkBhw1DROXh40wcjMcRqDOWE7iPJ4n3M7e2+YFP+76Q==
@@ -4625,7 +4675,7 @@ fastfall@^1.5.0:
   dependencies:
     reusify "^1.0.0"
 
-fastify-metrics@^10.0.3:
+fastify-metrics@^10.3.0:
   version "10.3.0"
   resolved "https://registry.yarnpkg.com/fastify-metrics/-/fastify-metrics-10.3.0.tgz#0ea9c107c6fe0c8d8085b413f01eeb6af2375fb4"
   integrity sha512-0m+tD84efgudLp4gmLqFSZ5q1eUltBeNVBPGV8duPxhIR4s+2Xv4IVR4Clp9So5p1Emv83iOAEERddSmDBkyRA==
@@ -4667,7 +4717,7 @@ fastify-user@^0.1.1:
     fastify-plugin "^4.4.0"
     get-jwks "^8.0.3"
 
-fastify@4.17.0, fastify@^4.0.2, fastify@^4.11.0, fastify@^4.13.0:
+fastify@4.17.0, fastify@^4.0.2, fastify@^4.11.0, fastify@^4.17.0:
   version "4.17.0"
   resolved "https://registry.yarnpkg.com/fastify/-/fastify-4.17.0.tgz#b2c8245e572edef0b02a167d2d411a3c8a46d01a"
   integrity sha512-tzuY1tgWJo2Y6qEKwmLhFvACUmr68Io2pqP/sDKU71KRM6A6R3DrCDqLGqANbeLZcKUfdfY58ut35CGqemcTgg==
@@ -4967,7 +5017,7 @@ get-intrinsic@^1.0.2, get-intrinsic@^1.1.1, get-intrinsic@^1.1.3, get-intrinsic@
     has "^1.0.3"
     has-symbols "^1.0.3"
 
-get-jwks@^8.0.3:
+get-jwks@^8.0.3, get-jwks@^8.0.5:
   version "8.0.5"
   resolved "https://registry.yarnpkg.com/get-jwks/-/get-jwks-8.0.5.tgz#b69d51fab5705a572dc6957c6fa42820d24a4cc7"
   integrity sha512-Q6E8TJ2F1dACr9kgFdvzSt23ujSOgN2kHlhGGzcvmgna3FEF7JfkzdkcBKnb/x7C7fWAFSRIoRHp0IQVDL2uqg==
@@ -5180,7 +5230,7 @@ graphql-jit@^0.8.0:
     lodash.merge "4.6.2"
     lodash.mergewith "4.6.2"
 
-graphql-scalars@^1.20.1:
+graphql-scalars@^1.21.3:
   version "1.21.3"
   resolved "https://registry.yarnpkg.com/graphql-scalars/-/graphql-scalars-1.21.3.tgz#21eb0b9349cc94ae62b40f40ebe87220d3a5f1b1"
   integrity sha512-QLWw3BHmqHZMp9JeYmPpjq7JT9aw/H8TpwmWKJEuMSE3+O7Xe7TduQbOLFzbs1q9UxX6CVkc0O1JO/YfkP/pAw==
@@ -5436,7 +5486,7 @@ ini@2.0.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-2.0.0.tgz#e5fd556ecdd5726be978fa1001862eacb0a94bc5"
   integrity sha512-7PnF4oN3CvZF23ADhA5wRaYEQpJ8qygSkbtTXWBeXWXmEVRXK+1ITciHWwHhsjv1TmW0MgacIv6hEi5pX5NQdA==
 
-inquirer@^9.1.4:
+inquirer@^9.2.0:
   version "9.2.0"
   resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-9.2.0.tgz#930d56d682cda629419e80eb92c45828a0fa5924"
   integrity sha512-WWERbVqjsTXjXub1ZW0ZHDit1dyHqy0T9XIkky9TnmKAPrjU9Jkd59nZPK0dUuM3s73GZAZu2Jo4iFU3XSPVLA==
@@ -5898,10 +5948,10 @@ jsbn@~0.1.0:
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha512-UVU9dibq2JcFWxQPA6KCqj5O42VOmAY3zQUfEKxU0KpTGXwNoCjkX1e13eHNvw/xPynt6pU0rZ1htjWTNTSXsg==
 
-jsdom@21.1.1:
-  version "21.1.1"
-  resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-21.1.1.tgz#ab796361e3f6c01bcfaeda1fea3c06197ac9d8ae"
-  integrity sha512-Jjgdmw48RKcdAIQyUD1UdBh2ecH7VqwaXPN3ehoZN6MqgVbMn+lRm1aAT1AsdJRAJpwfa4IpwgzySn61h2qu3w==
+jsdom@21.1.2:
+  version "21.1.2"
+  resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-21.1.2.tgz#6433f751b8718248d646af1cdf6662dc8a1ca7f9"
+  integrity sha512-sCpFmK2jv+1sjff4u7fzft+pUh2KSUbUrEHYHyfSIbGTIcmnjyp83qg6qLwdJ/I3LpTXx33ACxeRL7Lsyc6lGQ==
   dependencies:
     abab "^2.0.6"
     acorn "^8.8.2"
@@ -5916,7 +5966,7 @@ jsdom@21.1.1:
     http-proxy-agent "^5.0.0"
     https-proxy-agent "^5.0.1"
     is-potential-custom-element-name "^1.0.1"
-    nwsapi "^2.2.2"
+    nwsapi "^2.2.4"
     parse5 "^7.1.2"
     rrweb-cssom "^0.6.0"
     saxes "^6.0.0"
@@ -6356,14 +6406,14 @@ md5-hex@^3.0.1:
   dependencies:
     blueimp-md5 "^2.10.0"
 
-mercurius@^12.0.0, mercurius@^12.2.0:
-  version "12.2.0"
-  resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-12.2.0.tgz#ce27f4dd50037ba37cb524dc1392c2b2fb96d428"
-  integrity sha512-S1/j+MSJA11A0rW/TM+31qq7PTf9EQVDtq+XJQMaebtqEP5JhhUmQnTLzCh9NhHkh7YIFH72gEY03Phr3Cs8xQ==
+mercurius@^13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-13.0.0.tgz#b8c7354546806ec67b554eaf9f488d6e8f73cf9c"
+  integrity sha512-gPJGw9qymc2JSee5lUgg5OeQLM7EtLzEWMY7dV2sMwUdh3k8iO3Y22iy6B8TnIX2atpVt2xSpWHRvfiUvH6wuQ==
   dependencies:
     "@fastify/error" "^3.0.0"
     "@fastify/static" "^6.0.0"
-    "@fastify/websocket" "^7.0.0"
+    "@fastify/websocket" "^8.0.0"
     fastify-plugin "^4.2.0"
     graphql "^16.0.0"
     graphql-jit "^0.8.0"
@@ -6373,7 +6423,7 @@ mercurius@^12.0.0, mercurius@^12.2.0:
     safe-stable-stringify "^2.3.0"
     secure-json-parse "^2.7.0"
     single-user-cache "^0.6.0"
-    tiny-lru "^10.0.0"
+    tiny-lru "^11.0.0"
     undici "^5.0.0"
     ws "^8.2.2"
 
@@ -6451,14 +6501,14 @@ minimatch@^5.0.1:
   dependencies:
     brace-expansion "^2.0.1"
 
-minimatch@^8.0.0, minimatch@^8.0.2:
+minimatch@^8.0.2, minimatch@^8.0.4:
   version "8.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-8.0.4.tgz#847c1b25c014d4e9a7f68aaf63dedd668a626229"
   integrity sha512-W0Wvr9HyFXZRGIDgCicunpQ299OKXs9RgZfaukz4qAW/pJhcpUfupc9c+OObPOFueNy8VSrZgEmDtk6Kh4WzDA==
   dependencies:
     brace-expansion "^2.0.1"
 
-minimist@^1.2.0, minimist@^1.2.6, minimist@^1.2.7, minimist@^1.2.8:
+minimist@^1.2.0, minimist@^1.2.6, minimist@^1.2.8:
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
@@ -6532,7 +6582,7 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
-mkdirp@^2.1.3:
+mkdirp@^2.1.6:
   version "2.1.6"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-2.1.6.tgz#964fbcb12b2d8c5d6fbc62a963ac95a273e2cc19"
   integrity sha512-+hEnITedc8LAtIP9u3HJDFIdcLV2vXP33sqLLIzkv1Db1zO/1OxbvYf0Y1OC/S/Qo5dxHXepofhmxL02PsKe+A==
@@ -6781,7 +6831,7 @@ npmlog@^6.0.0:
     gauge "^4.0.3"
     set-blocking "^2.0.0"
 
-nwsapi@^2.2.2:
+nwsapi@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.4.tgz#fd59d5e904e8e1f03c25a7d5a15cfa16c714a1e5"
   integrity sha512-NHj4rzRo0tQdijE9ZqAx6kYDcoRwYwSYzCA8MY3JzfxlrvEU0jhnhJT9BhqhJs7I/dKcrDm6TyulaRqZPIhN5g==
@@ -6928,7 +6978,7 @@ optionator@^0.9.1:
     type-check "^0.4.0"
     word-wrap "^1.2.3"
 
-ora@^6.1.2:
+ora@^6.1.2, ora@^6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/ora/-/ora-6.3.0.tgz#a314600999f514a989a0904f5c17c8b7c1f7c878"
   integrity sha512-1/D8uRFY0ay2kgBpmAwmSA404w4OoPVhHMqRqtjvrcK/dnzcEZxMJ+V4DUbyICu8IIVRclHcOf5wlD1tMY4GUQ==
@@ -7244,23 +7294,24 @@ pkg-up@^3.1.0:
   dependencies:
     find-up "^3.0.0"
 
-platformatic@0.21.1:
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/platformatic/-/platformatic-0.21.1.tgz#5f8362545892c54ca92a5d48eaaafba09112c359"
-  integrity sha512-3jxWGmtpzy/1kXyFkOWW+92l7g9dl19PFoQNZGNwnme6+4iDrx6m2rIqtIJe/lIn7qpNb5Lun3NGox4121I3jA==
+platformatic@0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/platformatic/-/platformatic-0.22.0.tgz#6252b376034b20bda580fcf1732756bb606bc466"
+  integrity sha512-7503WMiNDURCsmIYGNmCQh+ZaVV9y7h39pNYgaVdAAuaKeUUGuJU6PM2otBQbdYoUDjL2OMMO5E69vzkjXwM1w==
   dependencies:
-    "@platformatic/authenticate" "0.21.1"
-    "@platformatic/client-cli" "0.21.1"
-    "@platformatic/db" "0.21.1"
+    "@platformatic/authenticate" "0.22.0"
+    "@platformatic/client-cli" "0.22.0"
+    "@platformatic/config" "0.22.0"
+    "@platformatic/db" "0.22.0"
     "@platformatic/deploy-client" "^0.1.2"
-    "@platformatic/metaconfig" "0.21.1"
-    "@platformatic/service" "0.21.1"
-    colorette "^2.0.19"
+    "@platformatic/metaconfig" "0.22.0"
+    "@platformatic/service" "0.22.0"
+    colorette "^2.0.20"
     commist "^3.2.0"
-    create-platformatic "0.21.1"
+    create-platformatic "0.22.0"
     desm "^1.3.0"
     help-me "^4.2.0"
-    inquirer "^9.1.4"
+    inquirer "^9.2.0"
     minimist "^1.2.8"
     pino "^8.11.0"
     pino-pretty "^10.0.0"
@@ -7755,7 +7806,7 @@ rimraf@^3.0.0, rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
-rimraf@^4.1.2:
+rimraf@^4.4.1:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-4.4.1.tgz#bd33364f67021c5b79e93d7f4fa0568c7c21b755"
   integrity sha512-Gk8NlF062+T9CqNGn6h4tls3k6T1+/nXdOcSZVikNVtlRdYpA7wRJJMoXmuvOnLW844rPjdQ7JgXCYM6PPC/og==
@@ -7863,7 +7914,7 @@ semver@^6.0.0, semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
-semver@^7.3.2, semver@^7.3.5, semver@^7.3.7, semver@^7.3.8:
+semver@^7.3.2, semver@^7.3.5, semver@^7.3.7, semver@^7.5.0:
   version "7.5.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.0.tgz#ed8c5dc8efb6c629c88b23d41dc9bf40c1d96cd0"
   integrity sha512-+XC0AD/R7Q2mPSRuy2Id0+CGTZ98+8f+KvwirxOKIEyid+XSx6HbC63p+O4IndTHuX5Z+JxQ0TghCkO5Cg/2HA==
@@ -8489,12 +8540,7 @@ tiny-glob@^0.2.9:
     globalyzer "0.1.0"
     globrex "^0.1.2"
 
-tiny-lru@^10.0.0:
-  version "10.4.1"
-  resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-10.4.1.tgz#dec67a62115a4cb31d2065b8116d010daac362fe"
-  integrity sha512-buLIzw7ppqymuO3pt10jHk/6QMeZLbidihMQU+N6sogF6EnBzG0qtDWIHuhw1x3dyNgVL/KTGIZsTK81+yCzLg==
-
-tiny-lru@^11.0.1:
+tiny-lru@^11.0.0, tiny-lru@^11.0.1:
   version "11.0.1"
   resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-11.0.1.tgz#629d6ddd88bd03c0929722680167f1feadf576f2"
   integrity sha512-iNgFugVuQgBKrqeO/mpiTTgmBsTP0WL6yeuLfLs/Ctf0pI/ixGqIRm8sDCwMcXGe9WWvt2sGXI5mNqZbValmJg==
@@ -8729,7 +8775,7 @@ typescript@^4.9.5:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
-ua-parser-js@^1.0.33:
+ua-parser-js@^1.0.35:
   version "1.0.35"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.35.tgz#c4ef44343bc3db0a3cbefdf21822f1b1fc1ab011"
   integrity sha512-fKnGuqmTBnIE+/KXSzCn4db8RTigUzw1AN0DmdU6hJovUTbYJKyqj+8Mt1c4VfRDnOVJnENmfYkIPZ946UrSAA==
@@ -8749,7 +8795,7 @@ unbox-primitive@^1.0.2:
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
 
-undici@^5.0.0, undici@^5.11.0, undici@^5.14.0, undici@^5.20.0:
+undici@^5.0.0, undici@^5.11.0, undici@^5.22.0:
   version "5.22.0"
   resolved "https://registry.yarnpkg.com/undici/-/undici-5.22.0.tgz#5e205d82a5aecc003fc4388ccd3d2c6e8674a0ad"
   integrity sha512-fR9RXCc+6Dxav4P9VV/sp5w3eFiSdOjJYsbtWfd4s5L5C4ogyuVpdKIVHeW0vV1MloM65/f7W45nR9ZxwVdyiA==
@@ -9130,7 +9176,7 @@ yallist@^4.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-yaml@^2.1.1, yaml@^2.1.3, yaml@^2.2.1, yaml@^2.2.2:
+yaml@^2.1.1, yaml@^2.1.3, yaml@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.2.2.tgz#ec551ef37326e6d42872dad1970300f8eb83a073"
   integrity sha512-CBKFWExMn46Foo4cldiChEzn7S7SRV+wqiluAb6xmueD/fGyRHIhX8m14vVGgeFWjN540nKCNVj6P21eQjgTuA==
