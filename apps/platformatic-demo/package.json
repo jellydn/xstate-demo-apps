@@ -12,16 +12,16 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@platformatic/sql-graphql": "0.22.0",
-    "@platformatic/sql-mapper": "0.22.0",
+    "@platformatic/sql-graphql": "0.23.1",
+    "@platformatic/sql-mapper": "0.23.1",
     "@xstate/fsm": "2.0.0",
     "ajv": "8.12.0",
     "fastify": "4.17.0",
     "fluent-json-schema": "4.1.0",
-    "platformatic": "0.22.0"
+    "platformatic": "0.23.1"
   },
   "devDependencies": {
-    "@types/node": "18.16.6",
+    "@types/node": "18.16.7",
     "@xstate/test": "0.5.1"
   }
 }
