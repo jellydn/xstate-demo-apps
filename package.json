@@ -33,7 +33,7 @@
     "@vitest/ui": "0.31.4",
     "c8": "7.14.0",
     "cypress": "12.13.0",
-    "eslint": "8.41.0",
+    "eslint": "8.42.0",
     "eslint-config-next": "latest",
     "eslint-config-productsway": "0.2.0",
     "husky": "8.0.3",
