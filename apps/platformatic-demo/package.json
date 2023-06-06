@@ -14,7 +14,7 @@
   "dependencies": {
     "@platformatic/sql-graphql": "0.26.1",
     "@platformatic/sql-mapper": "0.26.1",
-    "@xstate/fsm": "2.0.0",
+    "@xstate/fsm": "2.0.1",
     "ajv": "8.12.0",
     "fastify": "4.17.0",
     "fluent-json-schema": "4.1.0",
