@@ -3729,10 +3729,10 @@ cuid@^2.1.8:
   resolved "https://registry.yarnpkg.com/cuid/-/cuid-2.1.8.tgz#cbb88f954171e0d5747606c0139fb65c5101eac0"
   integrity sha512-xiEMER6E7TlTPnDxrM4eRiC6TRgjNX9xzEZ5U/Se2YJKr7Mq4pJn/2XEHjl3STcSh96GmkHPcBXLES8M29wyyg==
 
-cypress@12.17.1:
-  version "12.17.1"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-12.17.1.tgz#777fdcceec4ecd642fc90795f5994853b6ea03f8"
-  integrity sha512-eKfBgO6t8waEyhegL4gxD7tcI6uTCGttu+ZU7y9Hq8BlpMztd7iLeIF4AJFAnbZH1xjX+wwgg4cRKFNSvv3VWQ==
+cypress@12.17.2:
+  version "12.17.2"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-12.17.2.tgz#040ac55de1e811f6e037d231a2869d5ab8c29c85"
+  integrity sha512-hxWAaWbqQBzzMuadSGSuQg5PDvIGOovm6xm0hIfpCVcORsCAj/gF2p0EvfnJ4f+jK2PCiDgP6D2eeE9/FK4Mjg==
   dependencies:
     "@cypress/request" "^2.88.11"
     "@cypress/xvfb" "^1.2.4"
@@ -7460,7 +7460,7 @@ postcss@8.4.14:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-postcss@8.4.26, postcss@^8.4.23, postcss@^8.4.25:
+postcss@8.4.26, postcss@^8.4.23, postcss@^8.4.25, postcss@^8.4.26:
   version "8.4.26"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.26.tgz#1bc62ab19f8e1e5463d98cf74af39702a00a9e94"
   integrity sha512-jrXHFF8iTloAenySjM/ob3gSj7pCu0Ji49hnjqzsgSRa50hkWCKD0HQ+gMNJkW38jBI68MpAAg7ZWwHwX8NMMw==
@@ -9044,7 +9044,18 @@ vite-node@0.33.0:
     picocolors "^1.0.0"
     vite "^3.0.0 || ^4.0.0"
 
-vite@4.4.4, "vite@^3.0.0 || ^4.0.0":
+vite@4.4.5:
+  version "4.4.5"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-4.4.5.tgz#ce9ae1a03841d2ec90f560744712495bf914f698"
+  integrity sha512-4m5kEtAWHYr0O1Fu7rZp64CfO1PsRGZlD3TAB32UmQlpd7qg15VF7ROqGN5CyqN7HFuwr7ICNM2+fDWRqFEKaA==
+  dependencies:
+    esbuild "^0.18.10"
+    postcss "^8.4.26"
+    rollup "^3.25.2"
+  optionalDependencies:
+    fsevents "~2.3.2"
+
+"vite@^3.0.0 || ^4.0.0":
   version "4.4.4"
   resolved "https://registry.yarnpkg.com/vite/-/vite-4.4.4.tgz#b76e6049c0e080cb54e735ad2d18287753752118"
   integrity sha512-4mvsTxjkveWrKDJI70QmelfVqTm+ihFAb6+xf4sjEU2TmUCTlVX87tmg/QooPEMQb/lM9qGHT99ebqPziEd3wg==
