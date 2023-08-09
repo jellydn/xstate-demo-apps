@@ -19,8 +19,8 @@
     "use-count-up": "3.0.1"
   },
   "devDependencies": {
-    "@types/node": "18.17.3",
-    "@types/react": "18.2.19",
+    "@types/node": "18.17.4",
+    "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.14",
     "postcss": "8.4.27",
