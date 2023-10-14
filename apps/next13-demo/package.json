@@ -14,16 +14,16 @@
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "styled-components": "6.0.7",
+    "styled-components": "6.1.0",
     "styled-jsx": "5.1.2",
     "use-count-up": "3.0.1"
   },
   "devDependencies": {
-    "@types/node": "18.17.5",
-    "@types/react": "18.2.20",
-    "@types/react-dom": "18.2.7",
-    "autoprefixer": "10.4.15",
+    "@types/node": "18.18.5",
+    "@types/react": "18.2.28",
+    "@types/react-dom": "18.2.13",
+    "autoprefixer": "10.4.16",
     "postcss": "8.4.31",
-    "prettier-plugin-tailwindcss": "0.5.2"
+    "prettier-plugin-tailwindcss": "0.5.6"
   }
 }
